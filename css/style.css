@@ -1,0 +1,84 @@
+/* &display=swap */   /* @import url(https://fonts.googleapis.com/css?family=Lato:regular,italic,700,,900&display=swap); */
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap );
+@font-face {
+    font-family: "CircularStd";
+    src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "CircularStd";
+    src: url("../fonts/CircularStd-Black.woff2") format("woff2"), url("../fonts/CircularStd-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Lato", "sans-serif";
+    font-size: 20px;
+}
+.one {
+    font-style: italic;
+    color: red;
+    font-size: 60px;
+    font-weight: 900;
+    text-indent: 90px;
+}
+.text {
+    text-align: center;
+    text-shadow: 10px 10px 3px blue;
+} 
+.two {
+    color: palegreen;
+    text-shadow: 15px 10px 4px   navy;
+}
+.menu {
+    color:#ebb46173;
+}
+.list {
+    text-decoration: underline;
+    color: hotpink;
+}
+.through {
+    text-decoration: line-through;
+}
+.shadow {
+text-shadow: 10px 10px 5px  black, -10px -10px 5px red ;
+}
+.lot {
+    text-transform: uppercase;
+}
+.lot span {
+    text-transform: capitalize;
+}
+.mamont {
+    line-height: 4.5;
+    letter-spacing: 10px;
+    word-spacing:  10px;
+    text-shadow: -10px -10px 5px saddlebrown;
+  }
+.mamont {
+    text-indent: 60px;
+}
+.rock {
+    letter-spacing: 5px;
+    color: peru;
+    font-size: 35px;
+    text-shadow: 10px 10px 3px  darkblue;
+    }
